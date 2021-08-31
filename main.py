@@ -141,17 +141,17 @@ while(move > 0 and win == False): # loop for move is less than and win is false
 
         #Here check for "X" win in all ways
         if checkForWinhX()==True: # if X wins horizontally
-            print("Player one win!")
+            print("Player one wins!")
             win = True
             break
         
         if checkForWinvX() == True: # if X wins vertically
-            print("Player one win!")
+            print("Player one wins!")
             win = True
             break
 
         if checkDiagonalX() == True: #if X wins diagonally
-            print("Player one win!")
+            print("Player one wins!")
             win = True
             break
 
@@ -164,17 +164,17 @@ while(move > 0 and win == False): # loop for move is less than and win is false
 
         #Here check for "O" win in all ways
         if checkForWinhO()==True: # if O wins horizontally
-            print("Player two win!")
+            print("Player two wins!")
             win = True
             break
         
         if checkForWinvO() == True: # if O wins vertically
-            print("Player two win!")
+            print("Player two wins!")
             win = True
             break
 
         if checkDiagonalO() == True: # if O wins diagonally
-            print("Player two win!")
+            print("Player two wins!")
             win = True
             break
 
